@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 6a</title>
+</head>
+
+<body>
+
+    <form>
+        <h2>Registration Form</h2>
+        <p>Register your Jackson Electronics product here</p>
+
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName">
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName"><br><br>
+
+        <label for="address1">Address #1:</label><br>
+        <input type="text" id="address1" name="address1"><br><br>
+        <label for="address2">Address #2:</label><br>
+        <input type="text" id="address2" name="address2"><br><br>
+
+        <label for="city">City:</label><br>
+        <input type="text" id="city" name="city">
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state">
+        <label for="zip">Zip:</label>
+        <input type="text" id="zip" name="zip"><br><br>
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country">
+        <hr>
+
+        <label for="product">Product</label>
+        <select id="product" name="product">
+            <option value="scanmaster">ScanMaster</option>
+            <option value="coccoc">Coccoc</option>
+        </select><br><br>
+
+        <label for="datePurchased">Date Purchased:</label>
+        <input type="text" id="datePurchased" name="datePurchased"><br><br>
+
+        <label for="serialNumber">Serial #:</label>
+        <input type="text" id="serialNumber" name="serialNumber"><br><br>
+
+        <label>Used for: </label>
+        <input type="radio" id="home" name="use" value="home">
+        <label for="home">Home</label>
+        <input type="radio" id="educational" name="use" value="educational">
+        <label for="home">Educational Institution</label>
+        <input type="radio" id="business" name="use" value="business">
+        <label for="business">Business</label>
+        <input type="radio" id="other" name="use" value="other">
+        <label for="home">Other</label>
+        <input type="radio" id="government" name="use" value="government">
+        <label for="government">Government</label><br><br>
+
+        <label for="operatingSystem">Operating System:</label>
+        <input type="checkbox" id="window" name="window" value="window">
+        <label for="window">Window</label>
+        <input type="checkbox" id="unix" name="unix" value="unix">
+        <label for="unix">UNIX</label>
+        <input type="checkbox" id="mac" name="mac" value="mac">
+        <label for="mac">Mac</label>
+        <input type="checkbox" id="other" name="other" value="other">
+        <label for="other">Other</label>
+        <hr>
+
+        <label for="">Comments?</label>
+        <textarea name="comment">
+            
+        </textarea><br><br>
+
+        <input type="submit" value="Click to register">
+        <input type="reset" value="Click to cancel">
+    </form>
+
+</body>
+
+</html>
